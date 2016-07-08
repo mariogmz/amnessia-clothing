@@ -4,7 +4,7 @@
     "TingoLabs <desarrollo@tingolabs.com>"
   ],
   "description": "Amnessia Clothing Landing Page",
-  "main": "app/app.js",
+  "main": "public/js/main.js",
   "license": "MIT",
   "homepage": "www.amnessia.com",
   "ignore": [
