@@ -1,0 +1,7 @@
+body {
+  @include container;
+  font-family: $main-font;
+  font-weight: $main-weight;
+
+  margin: 0;
+}

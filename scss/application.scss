@@ -1,0 +1,20 @@
+// Import susy
+@import "../bower_components/susy/sass/susy";
+
+// Import breakpoint
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+// Import Susy and Breakpoint-Sass configuration files
+@import "config/susy-config";
+@import "config/breakpoint-config";
+
+// Import colors and fonts
+@import "config/colors";
+@import "config/fonts";
+
+// Import Mixins
+@import "mixins";
+
+// SMACSS style-defaults
+@import "base";
+@import "layout";
