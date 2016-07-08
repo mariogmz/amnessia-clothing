@@ -6,4 +6,3 @@ var amnessia = require('angular').module('amnessia', [
 ]);
 
 require('./core');
-require('./inicio');
