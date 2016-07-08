@@ -1,8 +1,24 @@
 {
-  "name": "landing-page",
-  "version": "0.0.0",
-  "description": "Amnessia Landing Page",
-  "main": "gulpfile.js",
+  "name": "amnessia_clothing_landingpage",
+  "version": "1.0.0",
+  "description": "Amnessia Clothing Landing Page",
+  "main": "public/js/main.js",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-local-storage": "^0.2.7",
+    "angular-ui-router": "^0.3.1",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "stringify": "^5.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +28,5 @@
   },
   "author": "TingoLabs",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/tingolabs/landing-page#readme",
-  "devDependencies": {
-    "bower": "^1.7.9",
-    "gulp": "^3.9.1"
-  }
+  "homepage": "https://bitbucket.org/tingolabs/landing-page#readme"
 }
