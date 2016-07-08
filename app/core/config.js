@@ -4,9 +4,9 @@ config.$inject = ['$urlRouterProvider', '$urlMatcherFactoryProvider', '$location
 
 function config($urlRouterProvider, $urlMatcherFactoryProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/');
-  $urlMatcherFactoryProvider.stricMode(false);
+  $urlMatcherFactoryProvider.strictMode(false);
 
-  if (window.history && windo.history.pushState) {
+  if (window.history && window.history.pushState) {
     $locationProvider.html5Mode(true).hashPrefix('!');
   }
 };
