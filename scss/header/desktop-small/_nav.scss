@@ -1,0 +1,8 @@
+&__nav {
+  @include container;
+  @include span(100% border-box);
+
+  background-color: $cod-gray;
+  weight: 74px;
+  opacity: 100%;
+}
