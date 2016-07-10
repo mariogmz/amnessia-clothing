@@ -1,8 +1,21 @@
 &__nav {
-  @include container;
-  @include span(100% border-box);
+  background-color: $mine-shaft;
+  color: $white;
+}
 
+&__nav-logo {
+  height: 74px;
+  text-align: center;
+}
+
+&__nav-list {
   background-color: $cod-gray;
-  weight: 74px;
-  opacity: 100%;
+  height: 28px;
+
+  &--item {
+    @include span(1 of 5);
+    @include vertical-align();
+    text-align: center;
+    text-transform: uppercase;
+  }
 }

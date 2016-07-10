@@ -1,6 +1,6 @@
 .header {
   background: none;
-
+  @include container;
   @include breakpoint($desktop-small) {
     @import "desktop-small/nav";
   }
