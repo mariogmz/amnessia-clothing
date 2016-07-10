@@ -10,7 +10,7 @@ function HomeController() {
   /////////////////////////
 
   function activate() {
-    vm.title = 'Hello world';
+    vm.title = 'Home';
   }
 }
 
