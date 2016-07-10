@@ -6,6 +6,11 @@
 &__nav-logo {
   height: 74px;
   text-align: center;
+
+  &--logo {
+    @include span(isolate 1 at 3 of 5);
+    @include vertical-align();
+  }
 }
 
 &__nav-list {
