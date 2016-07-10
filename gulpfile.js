@@ -27,9 +27,7 @@ gulp.task('browserify', function() {
 
 gulp.task('sass', function() {
   gulp.src('./scss/**/*.{scss,sass}')
-    .pipe(sass({
-      errLogToConsole: true
-    }))
+    .pipe(sass.sync().on('error', sass.logError))
     .pipe(gulp.dest('./public/css'));
 });
 
