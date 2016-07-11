@@ -3,11 +3,16 @@ body {
   background-color: #454545;
   font-family: $main-font;
   font-weight: $main-weight;
-
   margin: 0;
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }

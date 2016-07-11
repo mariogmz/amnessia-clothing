@@ -20,6 +20,7 @@
   &--item {
     @include span(1 of 5);
     @include vertical-align();
+    @include no-decor-list();
     text-align: center;
     text-transform: uppercase;
   }
