@@ -5,12 +5,26 @@
   &__hero {
 
     &-left {
-      @include span(2 of 5 inside);
+      @include span(1 of 5 inside);
       background-color: $scorpion;
+
+      &:after {
+        background: inherit;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: inherit;
+        left: -50%;
+        right: 84%;
+        position: absolute;
+        transform: skewX(-24deg);
+        transform-origin: left 120%;
+        z-index: -1;
+      }
     }
 
     &-right {
-      @include span(3 of 5 inside);
+      @include span(4 of 5 inside);
     }
   }
 }
