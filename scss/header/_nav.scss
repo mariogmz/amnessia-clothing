@@ -18,10 +18,21 @@
   height: 28px;
 
   &--item {
-    @include span(1 of 5);
-    @include vertical-align();
+    @include span(1 of 5 inside);
     @include no-decor-list();
+    height: 100%;
     text-align: center;
     text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $mine-shaft;
+      cursor: pointer;
+    }
+
+    &>a {
+      @include vertical-align();
+    }
+
   }
 }
