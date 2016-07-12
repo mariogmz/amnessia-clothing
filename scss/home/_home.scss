@@ -1,0 +1,13 @@
+.home {
+  @include container(5);
+  &__hero {
+    @include span(3 of 5 inside);
+    &-skew {
+      @include span(2 of 5 inside);
+      background-color: $scorpion;
+      &:after {
+
+      }
+    }
+  }
+}
