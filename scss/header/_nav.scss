@@ -10,6 +10,11 @@
   &--logo {
     @include span(isolate 1 at 3 of 5);
     @include vertical-align();
+
+    &>img {
+      min-height: 25px;
+      min-width: 95px;
+    }
   }
 }
 
