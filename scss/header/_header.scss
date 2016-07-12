@@ -1,8 +1,6 @@
 .header {
   @include span(100%);
-  @include breakpoint($desktop-small) {
-    @import "desktop-small/nav";
-  }
+  @import "nav";
 
   background: none;
   margin: 0;
