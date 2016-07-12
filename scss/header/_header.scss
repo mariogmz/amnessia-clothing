@@ -1,0 +1,9 @@
+.header {
+  @include span(100%);
+  @import "nav";
+
+  background: none;
+  margin: 0;
+  position: fixed;
+  top: 0;
+}
