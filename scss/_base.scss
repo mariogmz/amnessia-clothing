@@ -2,6 +2,7 @@ body {
   @include container;
   background-color: #454545;
   font-family: $main-font;
+  font-size: $font-size;
   font-weight: $main-weight;
   margin: 0;
 }
