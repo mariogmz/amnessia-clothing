@@ -1,13 +1,16 @@
 .home {
   @include container(5);
+  height: 100%;
+
   &__hero {
-    @include span(3 of 5 inside);
-    &-skew {
+
+    &-left {
       @include span(2 of 5 inside);
       background-color: $scorpion;
-      &:after {
+    }
 
-      }
+    &-right {
+      @include span(3 of 5 inside);
     }
   }
 }
