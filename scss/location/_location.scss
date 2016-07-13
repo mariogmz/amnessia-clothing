@@ -1,0 +1,19 @@
+.location {
+  @include container(8);
+  @include pad(1);
+  // height: 100%;
+
+
+  height: 706px;
+  margin-top: 102px;
+
+  &__map {
+    @include span(5 of 8);
+    height: 200px;
+  }
+
+  &__info {
+    @include span(last 2 of 8);
+    height: 200px;
+  }
+}

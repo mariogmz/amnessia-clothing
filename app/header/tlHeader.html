@@ -5,7 +5,7 @@
     </div>
     <ul class="header__nav-list" >
       <li class="header__nav-list--item" ng-repeat="item in headerVM.navItems">
-        <a href="{{item.link}}" ng-bind="item.label"></a>
+        <a ui-sref="{{item.state}}" ng-bind="item.label"></a>
       </li>
     </ul>
   </nav>
