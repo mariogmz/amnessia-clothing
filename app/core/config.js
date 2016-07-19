@@ -1,8 +1,8 @@
 'use strict';
 
-config.$inject = ['$urlRouterProvider', '$urlMatcherFactoryProvider', '$locationProvider'];
+config.$inject = ['$urlRouterProvider', '$urlMatcherFactoryProvider', '$locationProvider', 'uiGmapGoogleMapApiProvider'];
 
-function config($urlRouterProvider, $urlMatcherFactoryProvider, $locationProvider) {
+function config($urlRouterProvider, $urlMatcherFactoryProvider, $locationProvider, uiGmapGoogleMapApiProvider) {
   $urlRouterProvider.otherwise('/');
   $urlMatcherFactoryProvider.strictMode(false);
 
@@ -11,11 +11,11 @@ function config($urlRouterProvider, $urlMatcherFactoryProvider, $locationProvide
   }
 
   // // Google Maps SDK Async Loader
-  // uiGmapGoogleMapApiProvider.configure({
-  //   key: 'AIzaSyCM3IAwVE95rvyPNLNZWzTMUAfRuq1k9ts',
-  //   v: '3.20',
-  //   libraries: 'weather,geometry,visualization'
-  // });
+  uiGmapGoogleMapApiProvider.configure({
+    key: 'AIzaSyAAAgCAkcqjF9KDHSgahv82Ozre5opLBSw',
+    v: '3.20',
+    libraries: 'weather,geometry,visualization'
+  });
 };
 
 module.exports = config;

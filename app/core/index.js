@@ -1,7 +1,9 @@
 'use strict';
 
+require('lodash');
 require('angular-ui-router');
 require('angular-local-storage');
+require('angular-simple-logger');
 require('angular-google-maps');
 require('../blocks');
 
