@@ -1,9 +1,14 @@
+html, body {
+  height: 100vh;
+}
+
 body {
-  @include container;
-  background-color: #454545;
+  background-color: $tundora;
   font-family: $main-font;
+  font-size: $font-size;
   font-weight: $main-weight;
   margin: 0;
+  overflow-y: hidden;
 }
 
 a {
@@ -15,4 +20,8 @@ a {
 ul {
   margin: 0;
   padding: 0;
+}
+
+section {
+  height: 100%;
 }
