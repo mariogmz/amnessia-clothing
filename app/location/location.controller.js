@@ -10,6 +10,7 @@ function LocationController() {
   /////////////////////////
 
   function activate() {
+    vm.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
   }
 }
 
