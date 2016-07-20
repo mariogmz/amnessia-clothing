@@ -13,7 +13,7 @@ function config($urlRouterProvider, $urlMatcherFactoryProvider, $locationProvide
   // // Google Maps SDK Async Loader
   uiGmapGoogleMapApiProvider.configure({
     key: 'AIzaSyAAAgCAkcqjF9KDHSgahv82Ozre5opLBSw',
-    v: '3.20',
+    v: '3.24',
     libraries: 'weather,geometry,visualization'
   });
 };

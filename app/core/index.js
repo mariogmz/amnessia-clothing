@@ -1,6 +1,6 @@
 'use strict';
 
-window._ = require('lodash');
+require('lodash');
 require('angular-ui-router');
 require('angular-local-storage');
 require('angular-simple-logger');
@@ -11,6 +11,6 @@ var amnessia = require('angular').module('amnessia.core', [
   'ui.router',
   'LocalStorageModule',
   'uiGmapgoogle-maps',
-]).constant('_', window._);
+]);
 
 amnessia.config( require('./config') );
