@@ -1,6 +1,5 @@
 html, body {
   height: 100vh;
-  color: $white;
 }
 
 body {
@@ -9,7 +8,7 @@ body {
   font-size: $font-size;
   font-weight: $main-weight;
   margin: 0;
-  overflow-y: hidden;
+  color: $white;
 }
 
 a {
