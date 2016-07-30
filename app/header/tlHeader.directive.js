@@ -22,11 +22,11 @@ function HeaderController() {
 
   function activate() {
     vm.navItems = [
-      {label: 'inicio', link: '/'},
-      {label: 'catálogo', link: '/catalogo'},
-      {label: 'marca', link: '/marca'},
-      {label: 'ubicación', link: '/ubicacion'},
-      {label: 'contacto', link: '/contacto'},
+      {label: 'inicio', state: 'home'},
+      {label: 'catálogo', state: 'gallery'},
+      {label: 'marca', state: 'brand'},
+      {label: 'ubicación', state: 'location'},
+      {label: 'contacto', state: 'contact'},
     ];
   }
 

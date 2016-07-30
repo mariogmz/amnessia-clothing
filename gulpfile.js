@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
+var history = require('connect-history-api-fallback');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var stringify = require('stringify');
@@ -9,6 +10,8 @@ var sourcemaps = require('gulp-sourcemaps');
 gulp.task('connect', function() {
   connect.server({
     root: 'public',
+    livereload: true,
+    fallback: 'public/index.html',
     port: 4000
   });
 });

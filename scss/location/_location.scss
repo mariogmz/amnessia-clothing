@@ -1,0 +1,19 @@
+.location {
+  @include container(8);
+  @include pad(1);
+  margin-top: 60px;
+
+  &__content {
+    min-height: 385px;
+  }
+
+  &__map {
+    @include span(5 of 8);
+  }
+
+  &__info {
+    @include span(last 2 of 8);
+  }
+}
+
+.angular-google-map-container { height: 400px; }
