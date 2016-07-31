@@ -25,6 +25,7 @@
   &--item {
     @include span(1 of 5 inside no-gutters);
     @include no-decor-list();
+    display: table;
     height: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -35,7 +36,12 @@
     }
 
     &>a {
-      @include vertical-align();
+      display: table-cell;
+      vertical-align: middle;
+
+      &.active {
+        background-color: $white;
+      }
     }
 
   }
