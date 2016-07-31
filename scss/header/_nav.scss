@@ -10,13 +10,8 @@
   &--logo {
     @include span(isolate 1 at 3 of 5);
     @include vertical-align();
-    background: url(../images/navbar_logo.png) no-repeat center;
+    background: url(../images/navbar_logo.svg) no-repeat center;
     min-height: 25px;
-
-    &>img {
-      //min-height: 25px;
-      //min-width: 95px;
-    }
   }
 }
 
@@ -42,7 +37,8 @@
       vertical-align: middle;
 
       &.active {
-        background-color: $white;
+        border-bottom-width: 0.5px;
+        border-bottom-style: solid;
       }
     }
 
