@@ -2,5 +2,4 @@
 
 var amnessia = require('angular').module('amnessia.home', []);
 
-amnessia.config( require('./routes') );
-amnessia.controller('HomeController', require('./home.controller'));
+amnessia.directive('home', require('./home.directive'));

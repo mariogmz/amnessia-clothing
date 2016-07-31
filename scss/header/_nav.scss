@@ -1,30 +1,28 @@
 &__nav {
-  background-color: $mine-shaft;
   color: $white;
 }
 
 &__nav-logo {
+  background-color: $mine-shaft;
   height: 74px;
   text-align: center;
 
   &--logo {
     @include span(isolate 1 at 3 of 5);
     @include vertical-align();
-
-    &>img {
-      min-height: 25px;
-      min-width: 95px;
-    }
+    background: url(../images/navbar_logo.svg) no-repeat center;
+    min-height: 25px;
   }
 }
 
 &__nav-list {
-  background-color: $cod-gray;
+  background-color: $mine-shaft-transparent;
   height: 28px;
 
   &--item {
     @include span(1 of 5 inside no-gutters);
     @include no-decor-list();
+    display: table;
     height: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -35,7 +33,13 @@
     }
 
     &>a {
-      @include vertical-align();
+      display: table-cell;
+      vertical-align: middle;
+
+      &.active {
+        border-bottom-width: 0.5px;
+        border-bottom-style: solid;
+      }
     }
 
   }

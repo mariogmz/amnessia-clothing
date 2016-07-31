@@ -8,7 +8,7 @@
   }
 
   &__map {
-    @include span(5 of 8);
+    @include span(5 of 8 inside no-gutters);
   }
 
   &__info {

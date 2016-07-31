@@ -4,11 +4,9 @@ configRoute.$inject = ['$stateProvider'];
 
 function configRoute($stateProvider) {
   $stateProvider
-    .state('home', {
+    .state('layout', {
       url: '/',
-      template: require('./home.html'),
-      controller: 'HomeController',
-      controllerAs: 'homeVM'
+      template: require('./layout.html')
     });
 }
 

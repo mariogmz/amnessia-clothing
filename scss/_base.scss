@@ -4,11 +4,11 @@ html, body {
 
 body {
   background-color: $tundora;
+  color: $white;
   font-family: $main-font;
   font-size: $font-size;
   font-weight: $main-weight;
   margin: 0;
-  overflow-y: hidden;
 }
 
 a {
