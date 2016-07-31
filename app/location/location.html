@@ -1,7 +1,9 @@
 <div class="location">
   <div class="location__content">
     <section class="location__map">
-      <ui-gmap-google-map center="locationVM.map.center" zoom="locationVM.map.zoom" options="locationVM.options"></ui-gmap-google-map>
+      <ui-gmap-google-map center="locationVM.map.center" zoom="locationVM.map.zoom" options="locationVM.options">
+        <ui-gmap-marker idKey="locationVM.marker.idKey" coords="locationVM.marker.coords" options="locationVM.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
     </section>
     <section class="location__info">
     </section>
