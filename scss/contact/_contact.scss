@@ -1,0 +1,13 @@
+.contact {
+  @include container(10);
+
+  &__form {
+    @include span(3 at 4 of 10);
+
+    height: 360px;
+  }
+
+  &__social {
+    @include span(last 2);
+  }
+}
