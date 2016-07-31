@@ -1,9 +1,9 @@
 &__nav {
-  background-color: $mine-shaft;
   color: $white;
 }
 
 &__nav-logo {
+  background-color: $mine-shaft;
   height: 74px;
   text-align: center;
 
@@ -21,7 +21,7 @@
 }
 
 &__nav-list {
-  background-color: $cod-gray;
+  background-color: $mine-shaft-transparent;
   height: 28px;
 
   &--item {
