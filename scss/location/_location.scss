@@ -4,7 +4,7 @@
   margin-top: 60px;
 
   &__content {
-    min-height: 385px;
+    height: 385px;
   }
 
   &__map {
@@ -13,7 +13,31 @@
 
   &__info {
     @include span(last 2 of 8);
+    height: inherit;
+    position: relative;
+
+    &--container {
+      height: 147px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  address {
+    font-style: normal;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    font-family: $secondary-font;
   }
 }
 
-.angular-google-map-container { height: 400px; }
+.angular-google-map-container { min-height: 385px; }

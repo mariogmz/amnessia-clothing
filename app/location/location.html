@@ -6,13 +6,15 @@
       </ui-gmap-google-map>
     </section>
     <section class="location__info">
-      <address>
-        <p ng-bind="locationVM.locationData.address"></p>
-        <p ng-bind="locationVM.locationData.street"></p>
-        <p ng-bind="locationVM.locationData.state"></p>
-      </address>
-      <p class="location__info--phone" ng-bind="locationVM.locationData.phone"></p>
-      <p class="location__info--email" ng-bind="locationVM.locationData.email"></p>
+      <div class="location__info--container">
+        <address>
+          <p ng-bind="locationVM.locationData.address"></p>
+          <p ng-bind="locationVM.locationData.street"></p>
+          <p ng-bind="locationVM.locationData.state"></p>
+        </address>
+        <p class="location__info--phone" ng-bind="locationVM.locationData.phone"></p>
+        <p class="location__info--email" ng-bind="locationVM.locationData.email"></p>
+      </div>
     </section>
   </div>
 </div>
