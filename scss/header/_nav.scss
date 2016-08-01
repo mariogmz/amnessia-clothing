@@ -1,9 +1,5 @@
-&__nav {
-  color: $white;
-}
-
 &__nav-logo {
-  background-color: $mine-shaft;
+  background-color: $cod-gray;
   height: 74px;
   text-align: center;
 
@@ -16,7 +12,7 @@
 }
 
 &__nav-list {
-  background-color: $mine-shaft-transparent;
+  background-color: $cod-gray-navbar;
   height: 28px;
 
   &--item {
@@ -28,7 +24,7 @@
     text-transform: uppercase;
     transition: background-color 0.3s ease-in-out;
     &:hover {
-      background-color: $mine-shaft;
+      background-color: $cod-gray;
       cursor: pointer;
     }
 
