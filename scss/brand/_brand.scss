@@ -1,3 +1,16 @@
 .brand {
-  
+  @include container(5);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  min-height: 385px;
+
+  &__left-control, &__right-control {
+    @include span(2);
+    height: 100%;
+  }
+
+  &__carousel {
+    @include span(3 inside no-gutters);
+  }
+
 }
