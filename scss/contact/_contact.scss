@@ -1,13 +1,38 @@
 .contact {
   @include container(10);
+  margin: 75px 0;
 
-  &__form {
-    @include span(3 at 4 of 10);
+  &__form-container {
+    @include span(4);
+    @include push(3);
 
     height: 360px;
   }
 
-  &__social {
-    @include span(last 2);
+  &__social-container {
+    @include span(2 of 4);
+    @include push(12);
+
+    height: 30px;
+    position: relative;
+    top: -60px;
+  }
+
+  &__list {
+    display: inline-flex;
+
+    &-item {
+      @include no-decor-list();
+
+      background-color: $mine-shaft;
+      height: 30px;
+      margin-right: 10px;
+      width: 30px;
+
+      a {
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
 }

@@ -5,7 +5,28 @@ function ContactController() {
   activate();
 
   function activate() {
-
+    vm.socialButtons = [
+      {
+        linkTo: '#',
+        icon: '#',
+        alt: ''
+      },
+      {
+        linkTo: '#',
+        icon: '#',
+        alt: ''
+      },
+      {
+        linkTo: '#',
+        icon: '#',
+        alt: ''
+      },
+      {
+        linkTo: '#',
+        icon: '#',
+        alt: ''
+      },
+    ];
   }
 }
 
