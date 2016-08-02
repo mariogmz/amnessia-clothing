@@ -1,13 +1,10 @@
-html, body {
-  height: 100vh;
-}
-
 body {
-  background-color: $tundora;
+  background-color: $dusty-gray;
   color: $white;
   font-family: $main-font;
   font-size: $font-size;
   font-weight: $main-weight;
+  height: 100vh;
   margin: 0;
 }
 
@@ -20,8 +17,4 @@ a {
 ul {
   margin: 0;
   padding: 0;
-}
-
-section {
-  height: 100%;
 }
