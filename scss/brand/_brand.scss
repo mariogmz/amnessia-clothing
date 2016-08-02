@@ -2,15 +2,20 @@
   @include container(5);
   margin-top: 60px;
   margin-bottom: 60px;
-  min-height: 385px;
 
-  &__left-control, &__right-control {
-    @include span(2);
-    height: 100%;
+  &__content {
+    min-height: 385px;
+
+    &>div {
+      min-height: inherit;
+    }
+
+    &--left-control, &--right-control {
+      @include span(1 of 5);
+    }
+
+    &--carousel {
+      @include span(3 of 5 inside no-gutters);
+    }
   }
-
-  &__carousel {
-    @include span(3 inside no-gutters);
-  }
-
 }
