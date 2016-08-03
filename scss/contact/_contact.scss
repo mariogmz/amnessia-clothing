@@ -1,11 +1,15 @@
 .contact {
   @include container(10);
   @include background("home-contact-background.png", cover);
-  margin: 75px 0;
+
+  background-position-y: 75px;
+  background-repeat: no-repeat;
+  height: 100vh;
 
   &__form-container {
     @include span(4);
     @include push(3);
+    @include vertical-align();
 
     height: 360px;
   }
