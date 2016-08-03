@@ -1,6 +1,6 @@
 .contact {
   @include container(10);
-  @include background("contact-background.png", cover);
+  @include background("home-contact-background.png", cover);
   margin: 75px 0;
 
   &__form-container {
