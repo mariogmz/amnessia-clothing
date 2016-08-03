@@ -25,7 +25,8 @@
     <section class="contact__social-container">
       <ul class="contact__list">
         <li class="contact__list-item" ng-repeat="socialButton in contactVM.socialButtons">
-          <a href=""{{socialButton.linkTo}}>
+          <a href="{{socialButton.linkTo}}">
+            <img ng-src="{{socialButton.icon}}" alt="{{socialButton.alt}}" />
           </a>
         </li>
       </ul>

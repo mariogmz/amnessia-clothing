@@ -1,5 +1,6 @@
 .contact {
   @include container(10);
+  @include background("contact-background.png", cover);
   margin: 75px 0;
 
   &__form-container {
@@ -24,7 +25,11 @@
     &-item {
       @include no-decor-list();
 
-      background-color: $mine-shaft;
+      &:hover {
+        background-color: $dusty-gray;
+      }
+
+      background-color: $cod-gray;
       height: 30px;
       margin-right: 10px;
       width: 30px;
@@ -32,6 +37,14 @@
       a {
         height: 100%;
         width: 100%;
+
+        img {
+          @include vertical-align();
+          display: block;
+          margin: 0 auto;
+          height: auto;
+          width: auto;
+        }
       }
     }
   }

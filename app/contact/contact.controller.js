@@ -8,23 +8,23 @@ function ContactController() {
     vm.socialButtons = [
       {
         linkTo: '#',
-        icon: '#',
-        alt: ''
+        icon: '/images/facebook.png',
+        alt: 'Página oficial de Amnessia en Facebook'
       },
       {
         linkTo: '#',
-        icon: '#',
-        alt: ''
+        icon: '/images/instagram.png',
+        alt: 'Cuenta oficial de Amnessia en Instagram'
       },
       {
         linkTo: '#',
-        icon: '#',
-        alt: ''
+        icon: '/images/pinterest.png',
+        alt: 'Cuenta oficial de Amnessia en Pinteres'
       },
       {
         linkTo: '#',
-        icon: '#',
-        alt: ''
+        icon: '/images/twitter.png',
+        alt: 'Cuenta oficial de Amnessia en Twitter'
       },
     ];
   }
