@@ -1,5 +1,4 @@
 'use strict';
 
-window._ = require('lodash');
-
+require('lodash');
 var amnessia = require('angular').module('blocks', []);
