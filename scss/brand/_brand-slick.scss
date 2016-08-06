@@ -25,6 +25,7 @@ $slick-slide-content-border: 2.5px dashed $white;
   &-left-control, &-right-control {
     @include block-vertical-align();
     font-size: 48px;
+    color: $white;
     height: 48px;
     text-align: center;
     width: 26px;
@@ -35,11 +36,12 @@ $slick-slide-content-border: 2.5px dashed $white;
     }
   }
 
-  &-left-control:before {
-    content: "\003c";
+  &-left-control {
+    background: url(../images/menorque.svg);
   }
 
-  &-right-control:before {
-    content: "\003e";
+  &-right-control {
+    background: url(../images/mayorque.svg);
+
   }
 }
