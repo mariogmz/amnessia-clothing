@@ -4,8 +4,12 @@
     <div class="brand__content--carousel">
       <slick settings="brandVM.slickSettings">
         <section class="brand-slick-slide" ng-repeat="slide in brandVM.slides">
-          <h1 ng-bind="slide.title"></h1>
-          <p ng-bind="slide.text"></p>
+          <div class="brand-slick-slide__container">
+            <div class="brand-slick-slide__container--content">
+              <h1 ng-show="slide.title" ng-bind="slide.title"></h1>
+              <p ng-bind="slide.text"></p>
+            </div>
+          </div>
         </section>
       </slick>
     </div>

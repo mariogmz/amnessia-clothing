@@ -9,16 +9,15 @@
 @import "config/susy-config";
 @import "config/breakpoint-config";
 
-// Import slick-carousel scss files
-@import "../node_modules/slick-carousel/slick/slick.scss";
-@import "../node_modules/slick-carousel/slick/slick-theme.scss";
-
 // Import colors and fonts
 @import "config/colors";
 @import "config/fonts";
 
 // Import Mixins
 @import "mixins";
+
+// Import slick-carousel scss files
+@import "../node_modules/slick-carousel/slick/slick.scss";
 
 // SMACSS style-defaults
 @import "base";
@@ -27,9 +26,6 @@
 /* Layout */
 // Header component
 @import "header/header";
-
-// Blocks
-@import "slick/slick";
 
 // Modules
 @import "home/home";
