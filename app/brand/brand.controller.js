@@ -9,6 +9,7 @@ function BrandController() {
       prevArrow: '.brand__content--left-control',
       nextArrow: '.brand__content--right-control'
     };
+    initializeSlides();
   }
 
   function initializeSlides() {

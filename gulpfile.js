@@ -11,7 +11,6 @@ var flatten = require('gulp-flatten');
 gulp.task('connect', function() {
   connect.server({
     root: 'public',
-    livereload: true,
     fallback: 'public/index.html',
     port: 4000
   });

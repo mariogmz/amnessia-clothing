@@ -3,10 +3,10 @@
     <div class="brand__content--left-control"></div>
     <div class="brand__content--carousel">
       <slick settings="brandVM.slickSettings">
-        <section>1</section>
-        <section>2</section>
-        <section>3</section>
-        <section>4</section>
+        <section class="brand-slick-slide" ng-repeat="slide in brandVM.slides">
+          <h1 ng-bind="slide.title"></h1>
+          <p ng-bind="slide.text"></p>
+        </section>
       </slick>
     </div>
     <div class="brand__content--right-control"></div>
