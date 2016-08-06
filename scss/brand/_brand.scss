@@ -12,6 +12,7 @@
 
     &--left-control, &--right-control {
       @include span(1 of 5);
+      position: relative;
     }
 
     &--carousel {

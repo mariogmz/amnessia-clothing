@@ -7,8 +7,8 @@ function BrandController() {
   function activate() {
     vm.slickSettings = {
       infinite: true,
-      prevArrow: '.brand__content--left-control',
-      nextArrow: '.brand__content--right-control'
+      prevArrow: '.brand-slick-left-control',
+      nextArrow: '.brand-slick-right-control'
     };
     initializeSlides();
   }

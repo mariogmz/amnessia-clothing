@@ -20,3 +20,26 @@ $slick-slide-content-border: 2.5px dashed $white;
     }
   }
 }
+
+.brand-slick {
+  &-left-control, &-right-control {
+    @include block-vertical-align();
+    font-size: 48px;
+    height: 48px;
+    text-align: center;
+    width: 26px;
+    vertical-align: middle;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-left-control:before {
+    content: "\003c";
+  }
+
+  &-right-control:before {
+    content: "\003e";
+  }
+}
