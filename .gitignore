@@ -81,3 +81,4 @@ jspm_packages
 # Application Folders
 public/js/main.js
 public/css/application.css
+public/css/fonts/*

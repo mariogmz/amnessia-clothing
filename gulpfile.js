@@ -6,11 +6,11 @@ var source = require('vinyl-source-stream');
 var stringify = require('stringify');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var flatten = require('gulp-flatten');
 
 gulp.task('connect', function() {
   connect.server({
     root: 'public',
-    livereload: true,
     fallback: 'public/index.html',
     port: 4000
   });
@@ -34,9 +34,16 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('watch', ['browserify', 'sass'], function() {
+gulp.task('copyfonts', function() {
+  gulp.src('./node_modules/**/*.{ttf,woff,eof,svg}')
+   .pipe(flatten())
+   .pipe(gulp.dest('./public/css/fonts'));
+});
+
+gulp.task('watch', ['browserify', 'sass', 'copyfonts'], function() {
   gulp.watch('app/**/{*.js,*.html}', ['browserify']);
   gulp.watch('scss/**/*.{scss,sass}', ['sass']);
+  gulp.watch('node_modules/**/*.{ttf,woff,eof,svg}', ['copyfonts']);
 });
 
 gulp.task('default', ['watch', 'connect']);

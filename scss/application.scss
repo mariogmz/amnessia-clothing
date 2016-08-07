@@ -16,6 +16,9 @@
 // Import Mixins
 @import "mixins";
 
+// Import slick-carousel scss files
+@import "../node_modules/slick-carousel/slick/slick.scss";
+
 // SMACSS style-defaults
 @import "base";
 @import "layout";
@@ -28,7 +31,8 @@
 // Header component
 @import "header/header";
 
-// Home
+// Modules
 @import "home/home";
+@import "brand/brand";
 @import "location/location";
 @import "contact/contact";
