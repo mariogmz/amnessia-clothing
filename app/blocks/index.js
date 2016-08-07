@@ -1,5 +1,10 @@
 'use strict';
 
-window._ = require('lodash');
+require('lodash');
+require('jquery');
+require('slick-carousel');
+require('./slick');
 
-var amnessia = require('angular').module('blocks', []);
+var amnessia = require('angular').module('blocks', [
+  'blocks.slick'
+]);

@@ -2,6 +2,7 @@
   @include container(8);
   @include pad(1);
   margin-top: 60px;
+  margin-bottom: 60px;
 
   &__content {
     height: 385px;

@@ -5,5 +5,16 @@
 }
 
 @mixin no-decor-list() {
-  list-style-type: none;
+    list-style-type: none;
+}
+
+@mixin block-vertical-align() {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 60%;
+    margin: auto;
 }

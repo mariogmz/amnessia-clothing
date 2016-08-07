@@ -1,0 +1,24 @@
+.brand {
+  @include container(5);
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  &__content {
+    min-height: 385px;
+
+    &>div {
+      min-height: inherit;
+    }
+
+    &--left-control, &--right-control {
+      @include span(1 of 5);
+      position: relative;
+    }
+
+    &--carousel {
+      @include span(3 of 5 inside no-gutters);
+    }
+  }
+}
+
+@import "brand-slick";

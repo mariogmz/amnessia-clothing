@@ -11,7 +11,8 @@ var amnessia = require('angular').module('amnessia.core', [
   'ui.router',
   'LocalStorageModule',
   'uiGmapgoogle-maps',
-  'duScroll'
+  'duScroll',
+  'blocks'
 ]).value('duScrollOffset', 162);
 
 amnessia.config( require('./config') );
