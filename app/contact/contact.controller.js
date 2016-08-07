@@ -5,28 +5,7 @@ function ContactController() {
   activate();
 
   function activate() {
-    vm.socialButtons = [
-      {
-        linkTo: '#',
-        icon: '/images/facebook.png',
-        alt: 'Página oficial de Amnessia en Facebook'
-      },
-      {
-        linkTo: '#',
-        icon: '/images/instagram.png',
-        alt: 'Cuenta oficial de Amnessia en Instagram'
-      },
-      {
-        linkTo: '#',
-        icon: '/images/pinterest.png',
-        alt: 'Cuenta oficial de Amnessia en Pinteres'
-      },
-      {
-        linkTo: '#',
-        icon: '/images/twitter.png',
-        alt: 'Cuenta oficial de Amnessia en Twitter'
-      },
-    ];
+    vm.socialButtons = require('../data/social_media').data;
   }
 }
 
