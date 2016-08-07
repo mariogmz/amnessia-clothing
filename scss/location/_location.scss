@@ -1,10 +1,13 @@
 .location {
   @include container(8);
   @include pad(1);
-  margin-top: 60px;
+
+  height: 100vh;
   margin-bottom: 60px;
 
   &__content {
+    @include vertical-align();
+
     height: 385px;
   }
 

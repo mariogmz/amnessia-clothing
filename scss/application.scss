@@ -23,6 +23,10 @@
 @import "base";
 @import "layout";
 
+// Common
+@import "common/input-group";
+@import "common/submit-group";
+
 /* Layout */
 // Header component
 @import "header/header";
@@ -31,3 +35,4 @@
 @import "home/home";
 @import "brand/brand";
 @import "location/location";
+@import "contact/contact";

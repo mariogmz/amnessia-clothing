@@ -18,3 +18,8 @@
     height: 60%;
     margin: auto;
 }
+
+@mixin background($imageUrl, $size) {
+  background-image: url("/images/#{$imageUrl}");
+  background-size: $size;
+}

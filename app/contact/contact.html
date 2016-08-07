@@ -1,0 +1,35 @@
+<div class="contact">
+  <section class="contact__form-container">
+    <form class="contact__form" action="mailto:contacto@amnessia.com" method="post" enctype="text/plain">
+      <div class="input-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" value="">
+      </div>
+      <div class="input-group">
+        <label for="telefono">Teléfono</label>
+        <input type="text" name="telefono" value="">
+      </div>
+      <div class="input-group">
+        <label for="email">Correo electrónico</label>
+        <input type="text" name="email" value="">
+      </div>
+      <div class="input-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" value="">
+      </div>
+      <div class="submit-group">
+        <button type="submit">enviar</button>
+      </div>
+    </form>
+
+    <section class="contact__social-container">
+      <ul class="contact__list">
+        <li class="contact__list-item" ng-repeat="socialButton in contactVM.socialButtons">
+          <a href="{{socialButton.linkTo}}">
+            <img ng-src="{{socialButton.icon}}" alt="{{socialButton.alt}}" />
+          </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
