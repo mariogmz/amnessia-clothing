@@ -8,6 +8,7 @@
 
   &__content {
     @include block-vertical-align();
+    width: 100%;
     min-height: 385px;
 
     &>div {
