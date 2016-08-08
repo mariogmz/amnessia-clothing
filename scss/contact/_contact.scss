@@ -1,8 +1,6 @@
 .contact {
   @include container(10);
   @include background("home-contact-background.png", cover);
-
-  background-position-y: 75px;
   background-repeat: no-repeat;
   height: 100vh;
 
