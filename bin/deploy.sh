@@ -6,10 +6,17 @@ PASSWD='wiuwiuwiu'
 cd public
 
 ftp -n $HOST <<END_SCRIPT
+prompt
 quote USER $USER
 quote PASS $PASSWD
 cd public_html
-mput **/*
+ascii
+mput css/application.css
+mput js/main.js
+mput index.html
+binary
+mput images/*
+mput css/fonts/*
 quit
 END_SCRIPT
 
