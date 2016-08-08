@@ -13,6 +13,6 @@ var amnessia = require('angular').module('amnessia.core', [
   'uiGmapgoogle-maps',
   'duScroll',
   'blocks'
-]).value('duScrollOffset', 162);
+]).value('duScrollOffset', 72);
 
 amnessia.config( require('./config') );

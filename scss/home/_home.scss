@@ -1,5 +1,7 @@
 .home {
   @include container(5);
+  @include background("home-contact-background.png", cover);
+  background-repeat: no-repeat;
   height: 100vh;
 
   &__hero {
