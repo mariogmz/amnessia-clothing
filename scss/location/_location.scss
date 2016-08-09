@@ -2,9 +2,6 @@
   @include container(8);
   @include pad(1);
 
-  @include background("brand-background.png", cover);
-  background-repeat: no-repeat;
-
   height: 100vh;
   position: relative;
 
