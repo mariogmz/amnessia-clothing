@@ -3,7 +3,7 @@
   @include pad(1);
 
   height: 100vh;
-  margin-bottom: 60px;
+  position: relative;
 
   &__content {
     @include vertical-align();
