@@ -7,7 +7,8 @@ var amnessia = require('angular').module('amnessia', [
   'amnessia.home',
   'amnessia.brand',
   'amnessia.location',
-  'amnessia.contact'
+  'amnessia.contact',
+  'amnessia.catalog'
 ]);
 
 require('./core');
@@ -17,3 +18,4 @@ require('./home');
 require('./brand');
 require('./location');
 require('./contact');
+require('./catalog');
