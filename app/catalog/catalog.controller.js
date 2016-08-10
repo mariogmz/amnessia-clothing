@@ -5,7 +5,7 @@ function CatalogController() {
   activate();
 
   function activate() {
-    // vm.images = require('../data/imagesUrls');
+    vm.gallery = require('../data/gallery.json');
   }
 }
 

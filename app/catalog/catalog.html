@@ -1,3 +1,7 @@
 <div class="catalog">
-
+  <section class="catalog__gallery">
+    <ul>
+      <li ng-repeat="thumbnail in catalogVM.gallery.small"><img ng-src="images/{{thumbnail}}" alt="" /></li>
+    </ul>
+  </section>
 </div>

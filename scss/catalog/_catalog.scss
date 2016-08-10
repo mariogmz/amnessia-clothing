@@ -1,0 +1,23 @@
+.catalog {
+  @include container;
+  height: 100vh;
+  padding-top: 102px;
+
+  &__gallery {
+    @include span(10 inside no-gutter);
+    ul {
+      list-style: none;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    li {
+      @include gallery(1 of 5 inside no-gutter);
+      margin: 0px;
+    }
+
+  }
+}
