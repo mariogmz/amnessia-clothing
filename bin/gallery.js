@@ -1,19 +1,73 @@
-var fs = require('fs');
-var pathToAssets = __dirname + '/../public/images/gallery/';
-var dirs = {
+const pathToAssets = __dirname + '/../public/images/gallery/';
+const DIRS = {
    'thumb-small':pathToAssets + 'thumbs/1x1/',
    'thumb-large':pathToAssets + 'thumbs/1x2/',
-   'full':pathToAssets + 'thumbs/1x2/'
+   'complete':pathToAssets + 'complete/'
+};
+const DEST_DIRS = {
+  thumbnails : {
+    small: 'gallery/thumbs/1x1/',
+    large: 'gallery/thumbs/2x1/'
+  },
+  complete : 'gallery/complete/'
+};
+const REGEXP = {
+  thumbnails: new RegExp('^foto_chica_\\d+'),
+  complete: new RegExp('^foto_grande_\\d+')
 };
 
-var smallThumbs = fs.readdirSync(dirs['thumb-small']).map(function(filename) {
-  return 'gallery/thumbs/1x1/' + filename;
-});
-var largeThumbs = fs.readdirSync(dirs['thumb-large']).map(function(filename) {
-  return 'gallery/thumbs/1x2/' + filename;
-});;
-var full = fs.readdirSync(dirs['full']).map(function(filename) {
-  return 'gallery/complete/' + filename;
-});;
+var fs = require('fs');
 
-fs.writeFileSync(__dirname + '/../app/data/gallery.json', JSON.stringify({small: smallThumbs, large: largeThumbs, full: full}), 'utf-8');
+function getThumbnailsImagesPaths() {
+  var thumbnailsPaths = {
+    small: [],
+    large: []
+  };
+
+  thumbnailsPaths.small = fs.readdirSync(DIRS['thumb-small']).map(function(filename) {
+    return 'gallery/thumbs/1x1/' + filename;
+  });
+  thumbnailsPaths.large = fs.readdirSync(DIRS['thumb-large']).map(function(filename) {
+    return 'gallery/thumbs/1x2/' + filename;
+  });
+  return thumbnailsPaths;
+}
+
+function getCompleteImagesPaths() {
+  var completesPaths = {
+    small: [],
+    large: []
+  };
+  fs.readdirSync(DIRS['complete']).forEach(function(path) {
+    if(REGEXP.thumbnails.test(path)){ completesPaths.small.push(DEST_DIRS['complete'] + path);}
+    else if(REGEXP.complete.test(path)){ completesPaths.large.push(DEST_DIRS['complete'] + path);}
+  });
+  return completesPaths;
+}
+
+function prepareOutput() {
+  var thumbnails = getThumbnailsImagesPaths();
+  var completes = getCompleteImagesPaths();
+  var output = {
+    small: [],
+    large: []
+  };
+
+  for(var i = 0; i < thumbnails.small.length; i++) {
+    output.small.push({
+      thumbnailUrl: thumbnails.small[i],
+      fullUrl: completes.small[i]
+    });
+  }
+
+  for(var i = 0; i < thumbnails.large.length; i++) {
+    output.large.push({
+      thumbnailUrl: thumbnails.large[i],
+      fullUrl: completes.large[i]
+    });
+  }
+
+  return output;
+}
+
+fs.writeFileSync(__dirname + '/../app/data/gallery.json', JSON.stringify(prepareOutput(), null, 2), 'utf-8');
