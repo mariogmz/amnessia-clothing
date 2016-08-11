@@ -1,122 +1,152 @@
 [
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_1.PNG",
-    "fullUrl": "gallery/complete/foto_chica_1.png"
+    "fullUrl": "gallery/complete/foto_chica_1.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_1.PNG",
-    "fullUrl": "gallery/complete/foto_grande_1.png"
+    "fullUrl": "gallery/complete/foto_grande_1.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_10.png",
-    "fullUrl": "gallery/complete/foto_chica_10.png"
+    "fullUrl": "gallery/complete/foto_chica_10.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_10.PNG",
-    "fullUrl": "gallery/complete/foto_grande_10.png"
+    "fullUrl": "gallery/complete/foto_grande_10.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_11.png",
-    "fullUrl": "gallery/complete/foto_chica_11.png"
+    "fullUrl": "gallery/complete/foto_chica_11.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_2.PNG",
-    "fullUrl": "gallery/complete/foto_grande_2.png"
+    "fullUrl": "gallery/complete/foto_grande_2.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_12.png",
-    "fullUrl": "gallery/complete/foto_chica_12.png"
+    "fullUrl": "gallery/complete/foto_chica_12.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_3.PNG",
-    "fullUrl": "gallery/complete/foto_grande_3.png"
+    "fullUrl": "gallery/complete/foto_grande_3.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_13.png",
-    "fullUrl": "gallery/complete/foto_chica_13.png"
+    "fullUrl": "gallery/complete/foto_chica_13.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_4.PNG",
-    "fullUrl": "gallery/complete/foto_grande_4.png"
+    "fullUrl": "gallery/complete/foto_grande_4.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_14.png",
-    "fullUrl": "gallery/complete/foto_chica_14.png"
+    "fullUrl": "gallery/complete/foto_chica_14.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_5.PNG",
-    "fullUrl": "gallery/complete/foto_grande_5.png"
+    "fullUrl": "gallery/complete/foto_grande_5.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_15.png",
-    "fullUrl": "gallery/complete/foto_chica_15.png"
+    "fullUrl": "gallery/complete/foto_chica_15.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_6.PNG",
-    "fullUrl": "gallery/complete/foto_grande_6.png"
+    "fullUrl": "gallery/complete/foto_grande_6.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_16.png",
-    "fullUrl": "gallery/complete/foto_chica_16.png"
+    "fullUrl": "gallery/complete/foto_chica_16.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_7.PNG",
-    "fullUrl": "gallery/complete/foto_grande_7.png"
+    "fullUrl": "gallery/complete/foto_grande_7.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_17.png",
-    "fullUrl": "gallery/complete/foto_chica_17.png"
+    "fullUrl": "gallery/complete/foto_chica_17.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_8.PNG",
-    "fullUrl": "gallery/complete/foto_grande_8.png"
+    "fullUrl": "gallery/complete/foto_grande_8.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_18.png",
-    "fullUrl": "gallery/complete/foto_chica_18.png"
+    "fullUrl": "gallery/complete/foto_chica_18.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x2/foto_grande_9.PNG",
-    "fullUrl": "gallery/complete/foto_grande_9.png"
+    "fullUrl": "gallery/complete/foto_grande_9.png",
+    "large": true
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_19.png",
-    "fullUrl": "gallery/complete/foto_chica_19.png"
+    "fullUrl": "gallery/complete/foto_chica_19.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_2.png",
-    "fullUrl": "gallery/complete/foto_chica_2.png"
+    "fullUrl": "gallery/complete/foto_chica_2.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_20.png",
-    "fullUrl": "gallery/complete/foto_chica_20.png"
+    "fullUrl": "gallery/complete/foto_chica_20.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_3.png",
-    "fullUrl": "gallery/complete/foto_chica_3.png"
+    "fullUrl": "gallery/complete/foto_chica_3.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_4.png",
-    "fullUrl": "gallery/complete/foto_chica_4.png"
+    "fullUrl": "gallery/complete/foto_chica_4.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_5.png",
-    "fullUrl": "gallery/complete/foto_chica_5.png"
+    "fullUrl": "gallery/complete/foto_chica_5.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_6.png",
-    "fullUrl": "gallery/complete/foto_chica_6.png"
+    "fullUrl": "gallery/complete/foto_chica_6.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_7.png",
-    "fullUrl": "gallery/complete/foto_chica_7.png"
+    "fullUrl": "gallery/complete/foto_chica_7.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_8.png",
-    "fullUrl": "gallery/complete/foto_chica_8.png"
+    "fullUrl": "gallery/complete/foto_chica_8.png",
+    "large": false
   },
   {
     "thumbnailUrl": "gallery/thumbs/1x1/foto_chica_9.png",
-    "fullUrl": "gallery/complete/foto_chica_9.png"
+    "fullUrl": "gallery/complete/foto_chica_9.png",
+    "large": false
   }
 ]

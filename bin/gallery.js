@@ -53,14 +53,16 @@ function prepareOutput() {
   for(var i = 0; i < thumbnails.small.length; i++) {
     output.push({
       thumbnailUrl: thumbnails.small[i],
-      fullUrl: completes.small[i]
+      fullUrl: completes.small[i],
+      large: false
     });
   }
 
   for(var i = 0; i < thumbnails.large.length; i++) {
     output.splice(2*i+1, 0, {
       thumbnailUrl: thumbnails.large[i],
-      fullUrl: completes.large[i]
+      fullUrl: completes.large[i],
+      large: true
     });
   }
 
