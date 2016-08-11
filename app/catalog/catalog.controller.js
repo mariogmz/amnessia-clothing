@@ -1,6 +1,6 @@
-CatalogController.$inject = ['$timeout'];
+CatalogController.$inject = [];
 
-function CatalogController($timeout) {
+function CatalogController() {
   var vm = this;
   activate();
 
