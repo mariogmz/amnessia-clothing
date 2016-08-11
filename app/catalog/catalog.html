@@ -1,7 +1,9 @@
 <div class="catalog">
   <section class="catalog__gallery">
       <div ng-repeat="image in catalogVM.gallery" class="catalog__gallery--item">
-        <img ng-src="images/{{image.thumbnailUrl}}" alt="" data-full="{{image.fullUrl}}"/>
+        <div class="catalog__gallery--overlay"></div>
+        <img ng-src="images/{{image.thumbnailUrl}}" alt=""
+          data-full="{{image.fullUrl}}"/>
       </div>
   </section>
 </div>

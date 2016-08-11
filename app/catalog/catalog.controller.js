@@ -6,9 +6,16 @@ function CatalogController() {
 
   function activate() {
     vm.gallery = require('../data/gallery.json');
+    bindEvents();
+  }
+
+  function bindEvents() {
     jQuery(window).on('load', function($){
       initializeMasonry();
     });
+    // vm.showInfo = showInfo;
+    // vm.hideInfo = hideInfo;
+    // vm.hideInfoImage = hideInfoImage;
   }
 
   function initializeMasonry() {
@@ -17,6 +24,7 @@ function CatalogController() {
       itemSelector: '.catalog__gallery--item'
     });
   }
+
 }
 
 module.exports = CatalogController;
