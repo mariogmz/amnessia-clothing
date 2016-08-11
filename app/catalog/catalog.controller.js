@@ -1,6 +1,6 @@
-CatalogController.$inject = [];
+CatalogController.$inject = ['$scope'];
 
-function CatalogController() {
+function CatalogController($scope) {
   var vm = this;
   activate();
 
@@ -10,15 +10,19 @@ function CatalogController() {
   }
 
   function bindEvents() {
-    jQuery(window).on('load', function($){
-      initializeMasonry();
+    $scope.$on('$stateChangeSuccess', function (event, toState) {
+      if(toState.name == 'catalog'){
+        waitForImagesToLoad();
+      }
     });
-    // vm.showInfo = showInfo;
-    // vm.hideInfo = hideInfo;
-    // vm.hideInfoImage = hideInfoImage;
   }
 
-  function initializeMasonry() {
+  function waitForImagesToLoad() {
+    var imagesLoaded = require('imagesloaded');
+    imagesLoaded('.catalog__gallery', initializeMasonry);
+  }
+
+  function initializeMasonry(instance) {
     var Masonry = require('masonry-layout');
     var masonry = new Masonry('.catalog__gallery', {
       itemSelector: '.catalog__gallery--item'
