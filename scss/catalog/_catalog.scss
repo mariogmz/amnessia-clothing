@@ -5,19 +5,16 @@
 
   &__gallery {
     @include span(10 inside no-gutter);
-    ul {
-      list-style: none;
+
+    &--item {
+      @include span(1 of 5 inside no-gutter);
+      float: left;
+      margin: 0px;
 
       img {
         display: block;
         width: 100%;
       }
     }
-
-    li {
-      @include gallery(1 of 5 inside no-gutter);
-      margin: 0px;
-    }
-
   }
 }
