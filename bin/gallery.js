@@ -48,20 +48,17 @@ function getCompleteImagesPaths() {
 function prepareOutput() {
   var thumbnails = getThumbnailsImagesPaths();
   var completes = getCompleteImagesPaths();
-  var output = {
-    small: [],
-    large: []
-  };
+  var output = [];
 
   for(var i = 0; i < thumbnails.small.length; i++) {
-    output.small.push({
+    output.push({
       thumbnailUrl: thumbnails.small[i],
       fullUrl: completes.small[i]
     });
   }
 
   for(var i = 0; i < thumbnails.large.length; i++) {
-    output.large.push({
+    output.splice(2*i+1, 0, {
       thumbnailUrl: thumbnails.large[i],
       fullUrl: completes.large[i]
     });
