@@ -14,18 +14,20 @@ function CatalogController($scope) {
     var gallery = document.querySelector('.catalog__gallery');
     new imagesLoaded(gallery, function(instance) {
       var Masonry = require('masonry-layout');
-      var masonry = new Masonry('.catalog__gallery', {
+      var masonry = new Masonry(instance.elements[0], {
         itemSelector: '.catalog__gallery--item'
       });
     }).on('always', always);
 
     function always(instance) {
       var Masonry = require('masonry-layout');
-      var masonry = new Masonry('.catalog__gallery', {
+      var masonry = new Masonry(instance.elements[0], {
         itemSelector: '.catalog__gallery--item'
       });
+      $(instance.elements[0]).lightGallery({
+        selector: '.catalog__gallery--item'
+      });
     }
-
 
   }
 
