@@ -6,10 +6,10 @@ const DIRS = {
 };
 const DEST_DIRS = {
   thumbnails : {
-    small: 'gallery/thumbs/1x1/',
-    large: 'gallery/thumbs/2x1/'
+    small: '/images/gallery/thumbs/1x1/',
+    large: '/images/gallery/thumbs/2x1/'
   },
-  complete : 'gallery/complete/'
+  complete : '/images/gallery/complete/'
 };
 const REGEXP = {
   thumbnails: new RegExp('^foto_chica_\\d+'),
@@ -25,10 +25,10 @@ function getThumbnailsImagesPaths() {
   };
 
   thumbnailsPaths.small = fs.readdirSync(DIRS['thumb-small']).map(function(filename) {
-    return 'gallery/thumbs/1x1/' + filename;
+    return DEST_DIRS['thumbnails']['small'] + filename;
   });
   thumbnailsPaths.large = fs.readdirSync(DIRS['thumb-large']).map(function(filename) {
-    return 'gallery/thumbs/1x2/' + filename;
+    return DEST_DIRS['thumbnails']['large'] + filename;
   });
   return thumbnailsPaths;
 }
