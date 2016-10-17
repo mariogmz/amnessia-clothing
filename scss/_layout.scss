@@ -1,0 +1,9 @@
+.container {
+  @include container;
+  min-height: 607px;
+}
+
+home, gallery, brand, location, contact {
+  @extend .container;
+  display: block;
+}

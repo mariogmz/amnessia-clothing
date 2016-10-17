@@ -1,0 +1,16 @@
+.submit-group {
+  @include span(last 2);
+  height: 30px;
+  left: -4px;
+  position: relative;
+  top: -30px;
+
+  button[type="submit"] {
+    background-color: $cod-gray-navbar;
+    border: none;
+    color: $white;
+    height: 100%;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+$slick-slide-content-border: 2.5px dashed $white;
+
+.brand-slick-slide {
+  background-color: $cod-gray-navbar;
+  font-family: $secondary-font;
+  font-size: 23px;
+  min-height: 385px;
+  margin: auto 5px;
+  position: relative;
+  text-align: center;
+
+  &__container {
+    @include block-vertical-align();
+    border-top: $slick-slide-content-border;
+    border-bottom: $slick-slide-content-border;
+    display: table;
+    &--content {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}
+
+.brand-slick {
+  &-left-control, &-right-control {
+    @include block-vertical-align();
+    font-size: 48px;
+    color: $white;
+    height: 48px;
+    text-align: center;
+    width: 26px;
+    vertical-align: middle;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-left-control {
+    background: url(../images/menorque.svg);
+  }
+
+  &-right-control {
+    background: url(../images/mayorque.svg);
+
+  }
+}

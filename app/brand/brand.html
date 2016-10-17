@@ -1,0 +1,23 @@
+<div class="brand">
+  <article class="brand__content">
+    <div class="brand__content--left-control">
+      <div class="brand-slick-left-control"></div>
+    </div>
+    <div class="brand__content--carousel">
+      <slick settings="brandVM.slickSettings">
+        <section class="brand-slick-slide" ng-repeat="slide in brandVM.slides">
+          <div class="brand-slick-slide__container">
+            <div class="brand-slick-slide__container--content">
+              <h1 ng-show="slide.title" ng-bind="slide.title"></h1>
+              <p ng-bind="slide.text"></p>
+            </div>
+          </div>
+        </section>
+      </slick>
+    </div>
+    <div class="brand__content--right-control">
+      <div class="brand-slick-right-control"></div>
+
+    </div>
+  </article>
+</div>

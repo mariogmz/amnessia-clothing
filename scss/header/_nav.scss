@@ -1,0 +1,41 @@
+&__nav-logo {
+  background-color: $cod-gray;
+  height: 74px;
+  text-align: center;
+
+  &--logo {
+    @include span(isolate 1 at 3 of 5);
+    @include vertical-align();
+    background: url(../images/navbar_logo.svg) no-repeat center;
+    min-height: 25px;
+  }
+}
+
+&__nav-list {
+  background-color: $cod-gray-navbar;
+  height: 28px;
+
+  &--item {
+    @include span(1 of 5 inside no-gutters);
+    @include no-decor-list();
+    display: table;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+      background-color: $cod-gray;
+      cursor: pointer;
+    }
+
+    &>a {
+      display: table-cell;
+      vertical-align: middle;
+
+      &.active {
+        background: url(../images/active_dot.svg) center bottom no-repeat;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "amnessia_clothing_landingpage",
+  "version": "1.0.0",
+  "description": "Amnessia Clothing Landing Page",
+  "main": "public/js/main.js",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-google-maps": "^2.3.3",
+    "angular-local-storage": "^0.2.7",
+    "angular-scroll": "^1.0.0",
+    "angular-simple-logger": "^0.1.7",
+    "angular-ui-router": "^0.3.1",
+    "bower": "^1.7.9",
+    "connect-history-api-fallback": "^1.2.0",
+    "imagesloaded": "^4.1.0",
+    "jquery": "^3.1.0",
+    "lightgallery": "^1.2.21",
+    "lodash": "^4.13.1",
+    "masonry-layout": "^4.1.0",
+    "npm": "^3.10.5",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-flatten": "^0.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "stringify": "^5.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "browser": {
+    "lodash": "./node_modules/lodash/lodash.js",
+    "jquery": "./node_modules/jquery/dist/jquery.js",
+    "lightGallery": "./node_modules/lightgallery/dist/js/lightgallery.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "lodash": "_",
+    "jquery": "$"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/tingolabs/landing-page.git"
+  },
+  "author": "TingoLabs",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/tingolabs/landing-page#readme"
+}

@@ -1,0 +1,42 @@
+// Import susy
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/sassy-maps/sass/memo";
+
+// Import breakpoint
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+// Import Susy and Breakpoint-Sass configuration files
+@import "config/susy-config";
+@import "config/breakpoint-config";
+
+// Import slick-carousel scss files
+@import "../node_modules/slick-carousel/slick/slick.scss";
+
+// Import lightgallery styles
+@import "../node_modules/lightgallery/src/sass/lightgallery.scss";
+
+// Import colors and fonts
+@import "config/colors";
+@import "config/fonts";
+
+// Import Mixins
+@import "mixins";
+
+// SMACSS style-defaults
+@import "base";
+@import "layout";
+
+// Common
+@import "common/input-group";
+@import "common/submit-group";
+
+/* Layout */
+// Header component
+@import "header/header";
+
+// Modules
+@import "home/home";
+@import "brand/brand";
+@import "location/location";
+@import "contact/contact";
+@import "catalog/catalog";
