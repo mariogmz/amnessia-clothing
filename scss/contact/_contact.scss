@@ -1,0 +1,53 @@
+.contact {
+  @include container(10);
+  @include background("home-contact-background.png", cover);
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  &__form-container {
+    @include span(4);
+    @include push(3);
+    @include vertical-align();
+
+    height: 360px;
+  }
+
+  &__social-container {
+    @include span(2 of 4);
+    @include push(12);
+
+    height: 30px;
+    position: relative;
+    top: -60px;
+  }
+
+  &__list {
+    display: inline-flex;
+
+    &-item {
+      @include no-decor-list();
+
+      &:hover {
+        background-color: $dusty-gray;
+      }
+
+      background-color: $cod-gray;
+      height: 30px;
+      margin-right: 10px;
+      width: 30px;
+
+      a {
+        height: 100%;
+        width: 100%;
+
+        img {
+          @include vertical-align();
+          display: block;
+          margin: 0 auto;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.brand {
+  @include container(5);
+  @include background("brand-background.png", cover);
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  position: relative;
+
+  &__content {
+    @include block-vertical-align();
+    width: 100%;
+    min-height: 385px;
+
+    &>div {
+      min-height: inherit;
+    }
+
+    &--left-control, &--right-control {
+      @include span(1 of 5);
+      position: relative;
+    }
+
+    &--carousel {
+      @include span(3 of 5 inside no-gutters);
+    }
+  }
+}
+
+@import "brand-slick";

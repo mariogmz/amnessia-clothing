@@ -1,0 +1,21 @@
+{
+  "name": "landing-page",
+  "authors": [
+    "TingoLabs <desarrollo@tingolabs.com>"
+  ],
+  "description": "Amnessia Clothing Landing Page",
+  "main": "public/js/main.js",
+  "license": "MIT",
+  "homepage": "www.amnessia.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "^2.7.0"
+  }
+}

@@ -1,0 +1,29 @@
+.input-group {
+  @include span(4 of 4);
+  margin-top: 15px;
+
+  input,
+  label,
+  textarea {
+    @include span(full);
+    color: $white;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  label {
+    height: 15px;
+  }
+
+  textarea {
+    height: 125px;
+  }
+
+  input,
+  textarea {
+    background-color: $cod-gray;
+    border: none;
+  }
+}
