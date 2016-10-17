@@ -7,6 +7,8 @@ var stringify = require('stringify');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var flatten = require('gulp-flatten');
+var uglify = require('gulp-uglify');
+var rename = require("gulp-rename");
 
 gulp.task('connect', function() {
   connect.server({
@@ -44,6 +46,13 @@ gulp.task('watch', ['browserify', 'sass', 'copyfonts'], function() {
   gulp.watch('app/**/{*.js,*.html}', ['browserify']);
   gulp.watch('scss/**/*.{scss,sass}', ['sass']);
   gulp.watch('node_modules/**/*.{ttf,woff,eof,svg}', ['copyfonts']);
+});
+
+gulp.task('uglify', ['browserify'], function () {
+    gulp.src('./public/js/main.js')
+    .pipe(uglify())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('./public/js'));
 });
 
 gulp.task('default', ['watch', 'connect']);

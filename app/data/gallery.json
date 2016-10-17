@@ -1,152 +1,182 @@
 [
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_1.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_1.png",
     "fullUrl": "/images/gallery/complete/foto_chica_1.png",
+    "description": "Blusa: $239\nColores: Blanca, Negra\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_1.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_1.png",
     "fullUrl": "/images/gallery/complete/foto_grande_1.png",
+    "description": "Blusa: $239\nColores: Blanca, Negra\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_10.png",
     "fullUrl": "/images/gallery/complete/foto_chica_10.png",
+    "description": "Sudadera: $229\nColores: ⁄nico\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_10.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_10.png",
     "fullUrl": "/images/gallery/complete/foto_grande_10.png",
+    "description": "Sudadera: $229\nColores: ⁄nico\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_11.png",
     "fullUrl": "/images/gallery/complete/foto_chica_11.png",
+    "description": "Saco: $289\nColores: Color ⁄nico\nPantalón de Vestir: $259\nColores: ⁄nico\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_2.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_2.png",
     "fullUrl": "/images/gallery/complete/foto_grande_2.png",
+    "description": "Saco: $289\nColores: Color ⁄nico\nPantalón de Vestir: $259\nColores: ⁄nico\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_12.png",
     "fullUrl": "/images/gallery/complete/foto_chica_12.png",
+    "description": "Blusa: $269\nColores: Perla, Azul Marino\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_3.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_3.png",
     "fullUrl": "/images/gallery/complete/foto_grande_3.png",
+    "description": "Blusa: $269\nColores: Perla, Azul Marino\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_13.png",
     "fullUrl": "/images/gallery/complete/foto_chica_13.png",
+    "description": "Camisa: $279\nColores: ⁄nico\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_4.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_4.png",
     "fullUrl": "/images/gallery/complete/foto_grande_4.png",
+    "description": "Camisa: $279\nColores: ⁄nico\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_14.png",
     "fullUrl": "/images/gallery/complete/foto_chica_14.png",
+    "description": "Saco Corto: $299\nColores: Negro, Gris Oscuro, Gris Claro\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_5.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_5.png",
     "fullUrl": "/images/gallery/complete/foto_grande_5.png",
+    "description": "Saco Corto: $299\nColores: Negro, Gris Oscuro, Gris Claro\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_15.png",
     "fullUrl": "/images/gallery/complete/foto_chica_15.png",
+    "description": "Saco: $349\nColores: ⁄nico\nFalda: $269\nColores: Tinto, Negro\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_6.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_6.png",
     "fullUrl": "/images/gallery/complete/foto_grande_6.png",
+    "description": "Saco: $349\nColores: ⁄nico\nFalda: $269\nColores: Tinto, Negro\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_16.png",
     "fullUrl": "/images/gallery/complete/foto_chica_16.png",
+    "description": "Saco Corto: $219\nColores: Roja, Verde Militar\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_7.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_7.png",
     "fullUrl": "/images/gallery/complete/foto_grande_7.png",
+    "description": "Saco Corto: $219\nColores: Roja, Verde Militar\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_17.png",
     "fullUrl": "/images/gallery/complete/foto_chica_17.png",
+    "description": "Saco: $409\nColores: ⁄nico\nPantalÛn de Gabardina: $259\nColores: Azul Marino, Negro\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_8.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_8.png",
     "fullUrl": "/images/gallery/complete/foto_grande_8.png",
+    "description": "Saco: $409\nColores: ⁄nico\nPantalÛn de Gabardina: $259\nColores: Azul Marino, Negro\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_18.png",
     "fullUrl": "/images/gallery/complete/foto_chica_18.png",
+    "description": "Chaleco Forrado Por Dentro: $489\nColores: Tinto, Marino, Verde Militar\n",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/2x1/foto_grande_9.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_9.png",
     "fullUrl": "/images/gallery/complete/foto_grande_9.png",
+    "description": "Chaleco Forrado Por Dentro: $489\nColores: Tinto, Marino, Verde Militar\n",
     "large": true
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_19.png",
     "fullUrl": "/images/gallery/complete/foto_chica_19.png",
+    "description": "Suéter: $319\nColores: Color ⁄nico\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_2.png",
     "fullUrl": "/images/gallery/complete/foto_chica_2.png",
+    "description": "Blusa: $239\nColores: Blanca, Negra\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_20.png",
     "fullUrl": "/images/gallery/complete/foto_chica_20.png",
+    "description": "Gabardina: $319\nColores: Color ⁄nico\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_3.png",
     "fullUrl": "/images/gallery/complete/foto_chica_3.png",
+    "description": "Blusa: $219\nColores: ⁄nico\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_4.png",
     "fullUrl": "/images/gallery/complete/foto_chica_4.png",
+    "description": "Blusa: $199\nColores: ⁄nico\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_5.png",
     "fullUrl": "/images/gallery/complete/foto_chica_5.png",
+    "description": "Blusa: $269\nColores: Marino, Tinto\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_6.png",
     "fullUrl": "/images/gallery/complete/foto_chica_6.png",
+    "description": "Blusa: $189\nColores: Coral, Blanca, Gris, Azul Marino\nPantalÛn: $269\nColores: tinto, Verde Militar\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_7.png",
     "fullUrl": "/images/gallery/complete/foto_chica_7.png",
+    "description": "Chaleco: $349\nColores: ⁄nico\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_8.png",
     "fullUrl": "/images/gallery/complete/foto_chica_8.png",
+    "description": "Chaleco: $399\nColores: Verde Militar, Azul Marino\n",
     "large": false
   },
   {
     "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_9.png",
     "fullUrl": "/images/gallery/complete/foto_chica_9.png",
+    "description": "SuÈter: $369\nColores: ⁄nico\nPantalÛn: $269\nColores: tinto, Verde Militar\n",
     "large": false
   }
 ]
