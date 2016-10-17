@@ -34,9 +34,7 @@
   "browser": {
     "lodash": "./node_modules/lodash/lodash.js",
     "jquery": "./node_modules/jquery/dist/jquery.js",
-    "lightGallery": "./node_modules/lightgallery/dist/js/lightgallery.js",
-    "thumbnail": "./node_modules/lightgallery/dist/js/lg-thumbnail.js",
-    "fullscreen": "./node_modules/lightgallery/dist/js/lg-fullscreen.js"
+    "lightGallery": "./node_modules/lightgallery/dist/js/lightgallery.js"
   },
   "browserify": {
     "transform": [
