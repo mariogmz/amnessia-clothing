@@ -7,7 +7,7 @@ const DIRS = {
 const DEST_DIRS = {
   thumbnails : {
     small: '/images/gallery/thumbs/1x1/',
-    large: '/images/gallery/thumbs/2x1/'
+    large: '/images/gallery/thumbs/1x2/'
   },
   complete : '/images/gallery/complete/'
 };

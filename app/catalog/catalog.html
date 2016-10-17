@@ -1,6 +1,6 @@
 <div class="catalog">
   <section class="catalog__gallery">
-      <div ng-repeat="image in catalogVM.gallery" class="catalog__gallery--item" data-src="{{'images/' + image.fullUrl}}">
+      <div ng-repeat="image in catalogVM.gallery" class="catalog__gallery--item" data-src="{{image.fullUrl}}">
         <div class="catalog__gallery--overlay">
           <div class="catalog__gallery--overlay-content">
             <p>modelo: ABC-001</p>
@@ -8,7 +8,7 @@
             <p>precio: $265.00</p>
           </div>
         </div>
-        <img ng-src="images/{{image.thumbnailUrl}}" alt=""/>
+        <img ng-src="{{image.thumbnailUrl}}" alt=""/>
       </div>
   </section>
 </div>
