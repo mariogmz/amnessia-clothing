@@ -1,7 +1,7 @@
 #!/bin/sh
-HOST='amnessia.site88.net'
-USER='a9170728'
-PASSWD='wiuwiuwiu'
+HOST='amnessia.com.mx'
+USER='amnessia'
+PASSWD='glFDo93y37'
 
 cd public
 
@@ -12,7 +12,7 @@ quote PASS $PASSWD
 cd public_html
 ascii
 mput css/application.css
-mput js/main.js
+mput js/main.min.js
 mput index.html
 binary
 mput images/*
