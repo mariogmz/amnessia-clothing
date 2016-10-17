@@ -3,9 +3,7 @@
       <div ng-repeat="image in catalogVM.gallery" class="catalog__gallery--item" data-src="{{image.fullUrl}}">
         <div class="catalog__gallery--overlay">
           <div class="catalog__gallery--overlay-content">
-            <p>modelo: ABC-001</p>
-            <p>tallas: ch m g xg</p>
-            <p>precio: $265.00</p>
+            <p ng-bind="image.description"></p>
           </div>
         </div>
         <img ng-src="{{image.thumbnailUrl}}" alt=""/>

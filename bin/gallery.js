@@ -2,7 +2,8 @@ const pathToAssets = __dirname + '/../public/images/gallery/';
 const DIRS = {
    'thumb-small':pathToAssets + 'thumbs/1x1/',
    'thumb-large':pathToAssets + 'thumbs/1x2/',
-   'complete':pathToAssets + 'complete/'
+   'complete':pathToAssets + 'complete/',
+   'descriptions':pathToAssets + 'descriptions/'
 };
 const DEST_DIRS = {
   thumbnails : {
@@ -36,11 +37,16 @@ function getThumbnailsImagesPaths() {
 function getCompleteImagesPaths() {
   var completesPaths = {
     small: [],
-    large: []
+    large: [],
+    description: []
   };
   fs.readdirSync(DIRS['complete']).forEach(function(path) {
-    if(REGEXP.thumbnails.test(path)){ completesPaths.small.push(DEST_DIRS['complete'] + path);}
-    else if(REGEXP.complete.test(path)){ completesPaths.large.push(DEST_DIRS['complete'] + path);}
+    if(REGEXP.thumbnails.test(path)){
+      completesPaths.small.push(DEST_DIRS['complete'] + path);
+    } else if(REGEXP.complete.test(path)){
+      completesPaths.large.push(DEST_DIRS['complete'] + path);
+    }
+    completesPaths.description.push((fs.readFileSync(DIRS['descriptions'] + path.replace(/\.\w+$/,'.txt'), 'utf8')));
   });
   return completesPaths;
 }
@@ -54,6 +60,7 @@ function prepareOutput() {
     output.push({
       thumbnailUrl: thumbnails.small[i],
       fullUrl: completes.small[i],
+      description: completes.description[i],
       large: false
     });
   }
@@ -62,6 +69,7 @@ function prepareOutput() {
     output.splice(2*i+1, 0, {
       thumbnailUrl: thumbnails.large[i],
       fullUrl: completes.large[i],
+      description: completes.description[i],
       large: true
     });
   }
