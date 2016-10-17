@@ -79,6 +79,6 @@ jspm_packages
 .node_repl_history
 
 # Application Folders
-public/js/*.js
-public/css/*.css
+public/js/*.*
+public/css/*.*
 public/css/fonts/*
