@@ -1,11 +1,11 @@
 [
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_1.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x1/foto_chica_1.png",
     "fullUrl": "/images/gallery/complete/foto_chica_1.png",
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_1.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_1.png",
     "fullUrl": "/images/gallery/complete/foto_grande_1.png",
     "large": true
   },
@@ -15,7 +15,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_10.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_10.png",
     "fullUrl": "/images/gallery/complete/foto_grande_10.png",
     "large": true
   },
@@ -25,7 +25,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_2.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_2.png",
     "fullUrl": "/images/gallery/complete/foto_grande_2.png",
     "large": true
   },
@@ -35,7 +35,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_3.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_3.png",
     "fullUrl": "/images/gallery/complete/foto_grande_3.png",
     "large": true
   },
@@ -45,7 +45,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_4.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_4.png",
     "fullUrl": "/images/gallery/complete/foto_grande_4.png",
     "large": true
   },
@@ -55,7 +55,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_5.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_5.png",
     "fullUrl": "/images/gallery/complete/foto_grande_5.png",
     "large": true
   },
@@ -65,7 +65,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_6.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_6.png",
     "fullUrl": "/images/gallery/complete/foto_grande_6.png",
     "large": true
   },
@@ -75,7 +75,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_7.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_7.png",
     "fullUrl": "/images/gallery/complete/foto_grande_7.png",
     "large": true
   },
@@ -85,7 +85,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_8.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_8.png",
     "fullUrl": "/images/gallery/complete/foto_grande_8.png",
     "large": true
   },
@@ -95,7 +95,7 @@
     "large": false
   },
   {
-    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_9.PNG",
+    "thumbnailUrl": "/images/gallery/thumbs/1x2/foto_grande_9.png",
     "fullUrl": "/images/gallery/complete/foto_grande_9.png",
     "large": true
   },
